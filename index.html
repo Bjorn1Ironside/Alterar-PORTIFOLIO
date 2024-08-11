@@ -8,55 +8,70 @@
     <script src="https://kit.fontawesome.com/4bb4dfed16.js" crossorigin="anonymous"></script>
 <body>
     <header class="header">
-        <a href="#" class="logo">joel</a>
+        <a href="#" class="logo">Joel</a>
         <nav class="navbar">
-            <a href="#" class="active">home</a>
-            <a href="#">sobre mim</a>
-            <a href="">Trabalhos</a>
-            <a href=" https://bjorn1ironside.github.io/formulario/">contato</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#especiliadades">Sobre mim</a>
+            <a href="#trabalhos">Trabalhos</a>
+            <a href=" https://bjorn1ironside.github.io/formulario/">Contato</a>
         </nav>
         <div class="menu-toggle" onclick="abrirMenu()">
             <i class="fa-solid fa-bars hamburger"></i>
         </div>
         <menu class="menu-mobile">
-            <a href="#" class="active link">home</a>
-            <a href="#" class="link">sobre mim</a>
+            <a href="#" class="active link">Home</a>
+            <a href="#" class="link">Sobre mim</a>
             <a href="https://bjorn1ironside.github.io/Trabalhos/" class="link">Trabalhos</a>
-            <a href=" https://bjorn1ironside.github.io/formulario/" class="link">contato</a>
+            <a href=" https://bjorn1ironside.github.io/formulario/" class="link">Contato</a>
         </menu>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
-            <h1>olá</h1>
-            <h3> sou o joel</h3>
-            <p>sou aluno do ifma ,estou cursando o segundo ano de informatica,tenho 16 anos Sou o batman</p>
+            <h1>Olá</h1>
+            <h3>Sou o Joel</h3>
+            <p>Sou aluno do ifma, estou cursando o segundo ano de informatica, tenho 16 anos Sou o batman</p>
+        </div>
+    </section>
+    <section id="especiliadades" class="especiliadades">
+        <div class="interface">
+            <h2 class="titulo">Sobre <span>Mim</span></h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <i class="bi bi-code-square"></i>
+                    <h3>Caracteristicas</h3>
+                    <p>Embora eu não acredite eu sou do signo de Leão, sou cristão e gosto bastante de desenhar .</p>
+                </div><!--especialidades-box-->
+    
+                <div class="especialidades-box">
+                    <i class="bi bi-music-note-beamed"></i>
+                    <h3>Sonhos</h3>
+                    <p>Meu sonho e me tornar Medico ou Fuzileiro Naval
+                    </p>
+                </div><!--especialidades-box-->
+    
+                <div class="especialidades-box">
+                    <i class="bi bi-eyeglasses"></i>
+                    <h3>Ideias</h3>
+                    <p>Apenas tenando ser melhor
+                    </p>
+                </div><!--especialidades-box-->
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--especiliadades-->
+    <section id="trabalhos" class="trabalhos">
+        <div class="container">
+            <h2 class="titulo">
+                Meus Trabalhos
+            </h2>
+            <div class="flexbox">
+                <a class="trabalho-box" href="https://bjorn1ironside.github.io/sistemasolar/" target="_blank" id="sistemasolar">
+                    <h2>Sistema Solar</h2>
+                </a>
+                <a class="trabalho-box" href="https://bjorn1ironside.github.io/trabalhinhocarlos/" target="_blank" id="galeria">
+                    <h2>Galeria</h2>
+                </a>
+            </div>
         </div>
     </section>
     <script src="index.js"></script>
 </body>
-<section id="especiliadades" class="especiliadades">
-    <div class="interface">
-        <h2 class="titulo">Sobre <span>Mim .</span></h2>
-        <div class="flex">
-            <div class="especialidades-box">
-                <i class="bi bi-code-square"></i>
-                <h3>Caracteristicas</h3>
-                <p>Embora eu não acredite eu sou do signo de Leão, sou cristão e gosto bastante de desenhar .</p>
-            </div><!--especialidades-box-->
-
-            <div class="especialidades-box">
-                <i class="bi bi-music-note-beamed"></i>
-                <h3>Sonhos</h3>
-                <p>Meu sonho e me tornar Medico ou Fuzileiro Naval
-                </p>
-            </div><!--especialidades-box-->
-
-            <div class="especialidades-box">
-                <i class="bi bi-eyeglasses"></i>
-                <h3>Ideias</h3>
-                <p>Apenas tenando ser melhor
-                </p>
-            </div><!--especialidades-box-->
-        </div><!--flex-->
-    </div><!--interface-->
-</section><!--especiliadades-->

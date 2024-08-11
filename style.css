@@ -4,6 +4,7 @@
     border: none;
     box-sizing: border-box;
     font-family: "poppins";
+    scroll-behavior: smooth;
 }
 
 body{
@@ -159,14 +160,16 @@ section.especiliadades {
 }
 
 section.especiliadades .flex {
-    gap: 60px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .especiliadades .especialidades-box {
     color: #fff;
     padding: 40px;
     border-radius: 20px;
-    margin-top: 45px;
     transition: .2s;
 }
 
@@ -245,4 +248,56 @@ section.sobre .flex {
     .menu-mobile {
         width: 100%;
     }
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container .titulo {
+    margin-bottom: 60px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.trabalho-box {
+    width: 280px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .2s;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.trabalho-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+#sistemasolar {
+    background-image: url("https://educasc.com.br/wp-content/uploads/2023/12/iStock-182792016.jpg");
+}
+
+#galeria {
+    background-image: url("https://w0.peakpx.com/wallpaper/44/933/HD-wallpaper-dune-2021-movie.jpg");
 }
