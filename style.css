@@ -291,7 +291,7 @@ section.sobre .flex {
 
 .trabalho-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px #ffffff78;
+    box-shadow: 0 0 20px #ffee00ef;
 }
 
 #sistemasolar {
