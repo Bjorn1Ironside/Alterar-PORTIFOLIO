@@ -46,8 +46,8 @@ body{
 
 .home{
     height: 100vh;
-    background: url(boys.png) no-repeat;
-    background: url(boys.png) no-repeat;
+    background: url(jorel.png) no-repeat;
+    background: url(jorel.png) no-repeat;
     background-size: 450px;
     background-position: right;
     display: flex;
@@ -280,7 +280,7 @@ section.sobre .flex {
     border-radius: 20px;
     transition: .2s;
     text-decoration: none;
-    color: white;
+    color: rgb(251, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
